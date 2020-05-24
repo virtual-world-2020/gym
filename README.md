@@ -148,7 +148,7 @@ pip install numpy
 | state500    | 0     | 0     | 0   |0   | 0  |0   |
 
 
-* 训练过程中，每50个回合输出一次 total reward ,total reward ，可见total reward是逐渐减小的。最后的波动是因为，出租车已经完全知道该怎么走了，total reward 决定于 乘客的地点和目的地和出租车的位置。
+* 训练过程中，每50个回合输出一次 total reward ,可见total reward是逐渐减小的。最后的波动是因为，出租车已经完全知道该怎么走了，total reward 决定于 乘客的地点和目的地和出租车的位置。
 * 取消训练过程中对env.render()注释可以看到训练过程。
 * 在最后的测试环节中可见，我们的出租车已经学会接送乘客了。
 
