@@ -105,7 +105,8 @@ MAP = [
 | 绿色  | 载客出租车 |  
 
 ![avatar](https://imgchr.com/i/tSjFP0)  
-如果图片不能显示，[点这里](https://imgchr.com/i/tSjFP0) 
+![avatar](https://s1.ax1x.com/2020/05/24/tSjFP0.png)  
+如果图片不能显示，[点这里](![tSjFP0.png](https://s1.ax1x.com/2020/05/24/tSjFP0.png)) 
 * Observations:  
 有500个离散状态，因为有25个出租车位置，乘客的5个可能位置(包括乘客在出租车中的情况)，和4个目的地位置。
 * Actions:任何时刻，出租车都有六种行为  
