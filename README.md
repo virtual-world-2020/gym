@@ -104,7 +104,7 @@ MAP = [
 | 黄色 | 空出租车 |
 | 绿色  | 载客出租车 |  
 
-![avatar](resources/taxi.png)  
+![avatar](https://s1.ax1x.com/2020/05/24/tSjFP0.png)  
 * Observations:  
 有500个离散状态，因为有25个出租车位置，乘客的5个可能位置(包括乘客在出租车中的情况)，和4个目的地位置。
 * Actions:任何时刻，出租车都有六种行为  
@@ -124,7 +124,7 @@ MAP = [
 在此状态下，出租车也能将乘客送到目的地，但是花费了大量的时间，还有很多非法行为——不该“pickup” 和“dropoff” 时“pickup”,“dropoff”了
 
 #####  2. 使用Q learning 训练后
-* 运行 testTaxi-v3.py, 运行程序需要安装numpy
+* 运行 testTaxi-v3.py, 运行程序前需要安装numpy
 * NumPy 是一个运行速度非常快的数学库，主要用于数组计算
 * 安装numpy,Terminal输入如下命令：
 ```shell script
@@ -152,7 +152,7 @@ pip install numpy
 * 在最后的测试环节中可见，我们的出租车已经学会接送乘客了。
 
 ### 展望
-* 细心的同学会发现，random_taxi.py 中total reward 很快就收敛了，训练 2000个episode 简直浪费，有能力的同学试一下写个终止条件让程序提前结束。
+* 细心的同学会发现，random_taxi.py 中total reward 很快就收敛了，训练 2000个episode 简直浪费，有能力的同学试一下写个终止条件让训练提前结束。
 * 在普通的Q-learning中，当状态和动作空间是离散且维数不高时可使用Q-Table储存每个状态动作对的Q值，而当状态和动作空间是高维连续时，使用Q-Table描述动作空间和状态空间十分困难。
 * 所以在此处可以把Q-table更新转化为一函数拟合问题，通过拟合一个函数function来代替Q-table产生Q值，使得相近的状态得到相近的输出动作。因此我们可以想到深度神经网络对复杂特征的提取有很好效果，所以可以将DeepLearning与Q learning结合这就成为了DQN(Deep Q Network)。
 * 感兴趣的同学，可以尝试学习DQN用于解决 CartPole-v0 环境中的问题。
