@@ -9,9 +9,10 @@
 * documentation：[gym.openai.com/docs](https://gym.openai.com/docs/) 
 
 ### Preparatory work
-* 必须安装python， pycharm和git为可选项,但是也建议安装。
+* 必须安装python， pycharm和git为可选项,但是也建议安装。本节课用到的所有的材料也都放进了超星云盘中，邀请码:dyqk1179
 * python3.5+
 网址：[https://www.python.org](https://www.python.org)  
+* 安装时注意勾选Add Python 3.8 to PATH,默认是不勾选的。
 * python编辑器pycharm   
 网址：[https://www.jetbrains.com/pycharm/download/#section=windows](https://www.jetbrains.com/pycharm/download/#section=windows)  
 * 版本控制工具git  
@@ -25,7 +26,11 @@
 * 如果选择不装pycharm和git,也可以直接从github上clone本项目到本地
               
 #### Installation of gym
-* Terminal输入如下命令：
+* pip 是 Python 包管理工具，该工具提供了对Python 包的查找、下载、安装、卸载的功能。
+* 在学习python的时候，用pip下载一些库，有时候非常的慢，简直达到了奔溃的边缘。因为默认pip是使用Python官方的源，但是由于国外官方源经常被墙，导致不可以用，我们可以使用国内的Python镜像源，从而解决Python安装不上库的烦恼。
+* 所以我们常常切换pip镜像源
+* 可参考：[python - pip换源，更换pip源到国内镜像](https://blog.csdn.net/xuezhangjun0121/article/details/81664260) ,或者直接去百度一下。
+* 更换pip源后，Terminal输入如下命令：
 ```shell script
 pip install gym
 ```
