@@ -24,7 +24,7 @@
 * git from version control  
 当同时安装了python,git,和pycharm时，打开pycharm,点击git from version control 并填写本例地址：https://github.com/virtual-world-2020/gym  ,可以将项目clone 到本地。
 
-* 如果选择不装git,也可以直接从github上clone本项目到本地，找到本项目的文件夹，选择open Folder as pycharm Edition Project
+* 如果选择不装git,也可以直接从github上clone本项目到本地，解压本项目为一个文件夹，右键该文件夹，选择open Folder as pycharm Edition Project
               
 #### Installation of gym
 * pip 是 Python 包管理工具，该工具提供了对Python 包的查找、下载、安装、卸载的功能。
