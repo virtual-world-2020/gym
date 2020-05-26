@@ -14,7 +14,8 @@
 网址：[https://www.python.org](https://www.python.org)  
 * 安装时注意勾选Add Python 3.8 to PATH,默认是不勾选的。
 * python编辑器pycharm   
-网址：[https://www.jetbrains.com/pycharm/download/#section=windows](https://www.jetbrains.com/pycharm/download/#section=windows)  
+网址：[https://www.jetbrains.com/pycharm/download/#section=windows](https://www.jetbrains.com/pycharm/download/#section=windows) 
+* installation options 中注意 那四个框全都勾上。
 * 版本控制工具git  
 网址：https://git-scm.com/downloads   
 * 注意选择你的电脑对应的版本，pycharm选择Community即可，同学们可以通过复旦邮箱使用Professional版本，同学们可以自行去探索     
@@ -23,7 +24,7 @@
 * git from version control  
 当同时安装了python,git,和pycharm时，打开pycharm,点击git from version control 并填写本例地址：https://github.com/virtual-world-2020/gym  ,可以将项目clone 到本地。
 
-* 如果选择不装git,也可以直接从github上clone本项目到本地.
+* 如果选择不装git,也可以直接从github上clone本项目到本地，找到本项目的文件夹，选择open Folder as pycharm Edition Project
               
 #### Installation of gym
 * pip 是 Python 包管理工具，该工具提供了对Python 包的查找、下载、安装、卸载的功能。
