@@ -19,11 +19,11 @@
 网址：https://git-scm.com/downloads   
 * 注意选择你的电脑对应的版本，pycharm选择Community即可，同学们可以通过复旦邮箱使用Professional版本，同学们可以自行去探索     
 
-###从github中clone本项目
+### 从github中clone本项目
 * git from version control  
 当同时安装了python,git,和pycharm时，打开pycharm,点击git from version control 并填写本例地址：https://github.com/virtual-world-2020/gym  ,可以将项目clone 到本地。
 
-* 如果选择不装pycharm和git,也可以直接从github上clone本项目到本地
+* 如果选择不装pycharm和git,也可以直接从github上clone本项目到本地.
               
 #### Installation of gym
 * pip 是 Python 包管理工具，该工具提供了对Python 包的查找、下载、安装、卸载的功能。
